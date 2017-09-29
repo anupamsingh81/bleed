@@ -167,3 +167,35 @@ hematemesis$s
 
 
 save.image()
+
+
+library(rms)
+
+hem = hematemesis
+rm(dd)
+dd = datadist(hem)
+options(datadist="dd")
+
+ddd <- datadist(hem)
+options( datadist = "ddd" )
+fit12 = lrm(DEATH~ASA +age+SEX+ Bicarbonate +ICTERUS + DOHTS + ALBUMIN+SHOCK+Etiology+INR+ascites,data=hem,x=T,y=T)
+
+summary(fit12)
+
+fastbw(fit12)
+
+fit12
+plot(anova(fit12))
+
+fit13 = lrm(DEATH~ASA +ICTERUS + DOHTS + ALBUMIN+RF,data=hem,x=T,y=T)
+fit13
+
+plot(nomogram(fit13))
+
+fastbw(fit13)
+
+t.test(hem$CREATNINE~hem$DEATH)
+
+summary(hem$DEATH)
+
+hem$RF = ifelse(hem$BUN >50 | hem$CREATNINE >1.2,1,0)
