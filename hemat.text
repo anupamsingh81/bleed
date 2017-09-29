@@ -1,0 +1,83 @@
+Age
+Shock(BP)
+PR
+Comorb = LF|RF|neopl /Other/None
+
+Diagnosis = Weiss|None /Other/Malignancy
+
+Stigmata =
+
+age
+
+time to admission
+
+asa stage
+
+
+neoplasia
+
+rf
+
+rebleed
+
+endoscopic t/t
+
+alb
+
+ascites
+
+
+# CODE
+
+DIAGNOSIS CLD/HEP B CLD/HEPC CLD/DUODENAL ULCER/ BCS/EHPVO/DIEULAFOyS/CKD/ALD/NCPF/HIATUS HERNIA
+
+ASSOCIATED WITH ALCOHOL/DRUGS/ANTIPLATELETS/NSAIDS
+
+ASSOCIATED ILLNESS OR NOT
+
+y=0, n=1 SHOCK PRESENT OR NOT
+
+y=0, 1= BLOOD TRA1SFUSIO1
+
+y=0, n=1  I.C.U
+
+REBLEED EPISODE YES=0/nO=1
+
+variceal or non variceal n=non variceal, v= variceal, c= no cause
+
+y=0, n=1 DEATH I1 7 DAyS
+
+DURATION OF HEMATEMESIS TO ENDOSCOP0 A=12 HRS/B=24 HOURS/C=72 HOURS/ D=>72 HOURS
+
+DURATION OF ADMISSION TO SCOP0 A=12 HRS/B=24 HOURS/C=72 HOURS/ D=>72 HOURS
+
+f=1, m=0 sex
+f=1, r=0 FIRST EPISODE/ RECURRENT EPISODE
+
+n=1, y=0 DEATH I1 7-28 DA0S
+
+y-0, n=1 HBSAG
+
+ n=1 y=0 AnTI HCV
+
+SBP<90 n=1, y=0
+
+n=1, y=0 ICTERUS
+
+EDEMA y=0, n=1
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
