@@ -199,3 +199,6 @@ t.test(hem$CREATNINE~hem$DEATH)
 summary(hem$DEATH)
 
 hem$RF = ifelse(hem$BUN >50 | hem$CREATNINE >1.2,1,0)
+
+
+save.image(file="bleed.RData")
