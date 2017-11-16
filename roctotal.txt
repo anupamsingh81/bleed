@@ -1,0 +1,231 @@
+[[1]]
+[[1]][[1]]
+[1] "ROCKALL.SCORE REBLEED.EPISODE"
+
+[[1]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.663 (0.586, 0.741) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                     Estimate
+cutoff              4.0000000
+Se                  0.8600000
+Sp                  0.3720000
+PPV                 0.2150000
+NPV                 0.9300000
+DLR.Positive        1.3694268
+DLR.Negative        0.3763441
+FP                157.0000000
+FN                  7.0000000
+Optimal criterion   0.2320000
+
+
+
+[[2]]
+[[2]][[1]]
+[1] "PNED.SCORE REBLEED.EPISODE"
+
+[[2]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.84 (0.783, 0.897) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                    Estimate
+cutoff             6.0000000
+Se                 0.7600000
+Sp                 0.8040000
+PPV                0.4367816
+NPV                0.9436620
+DLR.Positive       3.8775510
+DLR.Negative       0.2985075
+FP                49.0000000
+FN                12.0000000
+Optimal criterion  0.5640000
+
+
+
+[[3]]
+[[3]][[1]]
+[1] "AIMS65 REBLEED.EPISODE"
+
+[[3]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.578 (0.496, 0.659) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                     Estimate
+cutoff              1.0000000
+Se                  0.7200000
+Sp                  0.4240000
+PPV                 0.2000000
+NPV                 0.8833333
+DLR.Positive        1.2500000
+DLR.Negative        0.6603774
+FP                144.0000000
+FN                 14.0000000
+Optimal criterion   0.1440000
+
+
+
+[[4]]
+[[4]][[1]]
+[1] "GBS.SCORE REBLEED.EPISODE"
+
+[[4]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.701 (0.628, 0.775) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                     Estimate
+cutoff              8.0000000
+Se                  0.9000000
+Sp                  0.4000000
+PPV                 0.2307692
+NPV                 0.9523810
+DLR.Positive        1.5000000
+DLR.Negative        0.2500000
+FP                150.0000000
+FN                  5.0000000
+Optimal criterion   0.3000000
+
+
+
+[[5]]
+[[5]][[1]]
+[1] "ROCKALL.SCORE DEATH"
+
+[[5]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.728 (0.641, 0.816) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                     Estimate
+cutoff              6.0000000
+Se                  0.8333333
+Sp                  0.5592593
+PPV                 0.1736111
+NPV                 0.9679487
+DLR.Positive        1.8907563
+DLR.Negative        0.2980132
+FP                119.0000000
+FN                  5.0000000
+Optimal criterion   0.3925926
+
+
+
+[[6]]
+[[6]][[1]]
+[1] "PNED.SCORE DEATH"
+
+[[6]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.707 (0.603, 0.811) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                    Estimate
+cutoff             6.0000000
+Se                 0.5666667
+Sp                 0.7407407
+PPV                0.1954023
+NPV                0.9389671
+DLR.Positive       2.1857143
+DLR.Negative       0.5850000
+FP                70.0000000
+FN                13.0000000
+Optimal criterion  0.3074074
+
+
+
+[[7]]
+[[7]][[1]]
+[1] "AIMS65 DEATH"
+
+[[7]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.716 (0.622, 0.809) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                    Estimate
+cutoff             2.0000000
+Se                 0.5666667
+Sp                 0.7481481
+PPV                0.2000000
+NPV                0.9395349
+DLR.Positive       2.2500000
+DLR.Negative       0.5792079
+FP                68.0000000
+FN                13.0000000
+Optimal criterion  0.3148148
+
+
+
+[[8]]
+[[8]][[1]]
+[1] "GBS.SCORE DEATH"
+
+[[8]][[2]]
+
+Call:
+optimal.cutpoints.formula(X = x ~ y, tag.healthy = 1, methods = "Youden", 
+    data = pair)
+
+Area under the ROC curve (AUC):  0.622 (0.521, 0.723) 
+
+CRITERION: Youden
+Number of optimal cutoffs: 1
+
+                    Estimate
+cutoff            13.0000000
+Se                 0.4000000
+Sp                 0.8111111
+PPV                0.1904762
+NPV                0.9240506
+DLR.Positive       2.1176471
+DLR.Negative       0.7397260
+FP                51.0000000
+FN                18.0000000
+Optimal criterion  0.2111111
+
+

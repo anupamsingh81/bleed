@@ -197,6 +197,8 @@ hematemesis = hematemesis %>% mutate(ascites=
   
   hematemesis$pH = ifelse(hematemesis$pH==741,7.41,hematemesis$pH) # changing single value
   
+  summary(hematemesis$pH)
+  
   
   
   
